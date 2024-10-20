@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThriftNet</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            background-color: turquoise;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        header, nav, main, footer {
+            text-align: center;
+            margin: 20px;
+        }
+        .box {
+            background-color: #726e6e;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+            width: 200px;
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .scrollable-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 400px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .scrollable-column img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ThriftNet</h1>
+        <p>Be the first to know</p>
+        <p>Good Quality. Good Networking.</p>
+    </header>
+    <form style="text-align: center;">
+        <input type="search" name="q" placeholder="Search query" />
+        <input type="submit" value="Go!" />
+    </form>
+    <nav>
+        <ul style="list-style-type: none; padding: 0;">
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>It's That Design Feeling</p>
+    </nav>
+    <main>
+        <article>
+            <h2>Good Things Come To Those Who Thrift.</h2>
+            <h2>Featured Items</h2>
+            <div class="clearfix">
+                <div class="box">
+                    <h2>Featured Patchwork Jacket</h2>
+                    <img src="https://th.bing.com/th/id/OIP.z52w_Ivxt3Obr8B7qTXLEQHaHa?w=184&h=184&c=7&r=0&o=5&pid=1.7" alt="Patchwork Jacket">
+                </div>
+                <div class="box">
+                    <h2>Featured Varsity Jacket</h2>
+                    <img src="https://th.bing.com/th/id/OIP.vlA-xZTnqxU2Z5XVYEaf-wAAAA?w=139&h=180&c=7&r=0&o=5&pid=1.7" alt="Varsity Jacket">
+                </div>
+                <div class="box">
+                    <h2>Featured Crochet Cardigan Sweater</h2>
+                    <img src="https://th.bing.com/th/id/OIP.woQ1ecLjLnpMJZ1HKRK9bwAAAA?w=184&h=245&c=7&r=0&o=5&pid=1.7" alt="Crochet Cardigan">
+                </div>
+                <div class="box">
+                    <h2>Featured Reworked Jean Jacket</h2>
+                    <img src="https://th.bing.com/th/id/OIP.RV7pXnqIvqjhHjJqKBsC5AHaH2?w=184&h=195&c=7&r=0&o=5&pid=1.7" alt="Reworked Jean Jacket">
+                </div>
+            </div>
+            <h3>Upcoming Events</h3>
+            <div class="row">
+                <div class="column">
+                    <img src="https://th.bing.com/th/id/OIP.BM85DAYR8nlFTXwVolaUJwHaEJ?w=328&h=184&c=7&r=0&o=5&pid=1.7" alt="Event Image">
+                    <img src="https://th.bing.com/th/id/OIP.t5i6E71tvSnlZ72hK2u5iwHaE8?w=273&h=182&c=7&r=0&o=5&pid=1.7" alt="Event Image">
+                    <img src="https://th.bing.com/th/id/OIP.eFDhag35KSvsSOIBlGilBAAAAA?pid=ImgDet&w=191&h=191&c=7" alt="Event Image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCeevqx8DkZEViRO5McokaRERjAPn0Y6coTA&s" alt="Event Image">
+                </div>
+            </div>
+            <p>Events, online events, social events</p>
+            <section>
+                <h3>Featured Online</h3>
+                <p>Attend right from where you are, thrifting has never been so easy and fun.</p>
+                <div class="scrollable-column">
+                    <img src="https://th.bing.com/th/id/OIP.OE14FUKrvtvxPuXtMyazjAHaD4?w=309&h=180&c=7&r=0&o=5&pid=1.7" alt="Photo 1">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0APUDASIAAhEBAxEB/8QAGwABAAIDAQEAAAAAAAAAAAAAAAUGAQMEBwL/xABHEAACAgIBAgMGAwQFCQcFAQABAg
